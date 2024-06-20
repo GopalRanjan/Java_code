@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class SumOf_DistinctNo
+{
+    public static void main(String[] args)
+    {
+        int[] a = {1,4,5,7,8,9,6,4,5,1};
+        int c =0;
+        int d =0;
+        for(int i=0;i<a.length;i++)
+        {
+            if(a[i]%2 == 0)
+            {
+                c++;
+            }
+            else
+            {
+                d++;
+            }
+        }
+        System.out.println("Count of Even No: " +c);
+        System.out.println("Count of Odd No: " +d);
+    }
+}
