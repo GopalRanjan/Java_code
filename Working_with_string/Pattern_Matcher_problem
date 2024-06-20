@@ -1,0 +1,17 @@
+import java.util.regex.*;
+public class Pattern
+{
+    public static void main(String[] args)
+    {
+        String s = "Googlejhgcfchgooglejhg";
+        String w = "Google";
+        int c=0;
+        Pattern pattern = Pattern.compile(w.toUpperCase());
+        Matcher match = pattern.matcher(s.toUpperCase());
+        while(match.find())
+        {
+            c++;
+        }
+        System.out.println("No of word matches" +c);
+    }
+}
