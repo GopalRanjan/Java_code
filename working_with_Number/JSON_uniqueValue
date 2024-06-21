@@ -1,0 +1,27 @@
+import java.util.List;
+import java.util.ArrayList;
+import org.json.JSONObject;
+import org.testng.annotations.Test;
+
+class HelloWorld {
+	@Test
+    public static void main(String[] args) {
+        String s1 = "{\"a\": 1, \"b\": 2, \"c\": 3}";
+        String s2 = "{\"a\": 1, \"b\": 3, \"c\": 3, \"d\": 4}";
+        
+        JSONObject j1 = new JSONObject();
+        JSONObject j2 = new JSONObject();
+        List<String> l = new ArrayList<>();
+        for(String key : j1.keySet()){
+            if(j2.has(key))
+            {
+                Object v1 = j1.get(key);
+                Object v2 = j2.get(key);
+                if(!v1.equals(v2)){
+                    l.add(key);
+                }
+            }
+        }
+        System.out.println(l);
+    }
+}
