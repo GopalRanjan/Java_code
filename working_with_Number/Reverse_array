@@ -1,0 +1,14 @@
+import java.util.*;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Integer[] a = {23,67,1,6,97,21,7};
+        
+        Arrays.sort(a, Collections.reverseOrder());
+        for(int n: a)
+        {
+          System.out.print(n+" ");  
+        }
+        //System.out.println(Arrays.toString(a));
+    }
+}
