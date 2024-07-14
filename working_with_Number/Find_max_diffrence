@@ -1,0 +1,19 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int[] a = {23,67,1,6,97,21,7};
+        int max =a[0];
+        int len = a.length;
+        for(int i=0;i<len;i++)
+        {
+            for(int j=0;j<len;j++)
+            {
+                int s = a[i] - a[j];
+                if(s>max)
+                {
+                    max =s;
+                }
+            }
+        }
+        System.out.println(max);
+    }
+}
