@@ -36,8 +36,12 @@ class CorrectString {
                 }
                 
             }
-        
-        
-        System.out.println(st);
+        StringBuilder str = new StringBuilder(); 
+        while(st.size() != 0)
+        {
+            str.append(st.pop());
+        }
+        str.reverse() ;
+        System.out.println(str);
 }
 }
