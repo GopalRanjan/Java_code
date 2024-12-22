@@ -1,0 +1,43 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Stack;
+
+class CorrectString {
+    public static void makeLooksGood(String[] args) {
+        String s= "gooOpaaLll";
+        char[] s1 = s.toCharArray();
+        Stack<Character> st = new Stack<>();
+        for(char i : s1)
+        {
+            if(st.size() == 0)
+            {
+                st.push(i);
+                
+            }
+            else
+            {
+                char top = st.peek();
+                if(Character.toUpperCase(i) == Character.toUpperCase(top))
+                {
+                    if(Character.isUpperCase(i) && Character.isLowerCase(top) || Character.isLowerCase(i) && Character.isUpperCase(top))
+                    {
+                        st.pop();
+                    }
+                    else
+                    {
+                        st.push(i);
+                    }
+                }
+                else
+                {
+                    st.push(i);
+                }
+                        
+                }
+                
+            }
+        
+        
+        System.out.println(st);
+}
+}
