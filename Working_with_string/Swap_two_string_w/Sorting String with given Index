@@ -1,0 +1,24 @@
+
+class Sorting_string {
+    public static void sortingStringWithIndex(String[] args) {
+        String c = "my2 name4 is1 gopal3";
+        String[] a = c.split(" ");
+        String[] b = new String[a.length];
+        String d = "";
+        
+        for(String word : a)
+        {
+            int index = Character.getNumericValue(word.charAt(word.length()-1));
+            b[index-1] = word.substring(0,word.length()-1);
+        }
+        for(int i=0;i<b.length;i++)
+        {
+            d += b[i] + " ";
+        }
+        //Alternative if we don't want Above for loop
+        //d = String.join(" ",b); 
+        
+        System.out.println(d);
+        
+    }
+}
