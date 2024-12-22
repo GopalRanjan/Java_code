@@ -1,0 +1,16 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        int[] a = {1,5,3,3,2,7,2,5};  //Output: 1,5,3,2,7
+        List arr = new ArrayList();
+        for(int i =0; i<a.length;i++)
+        {
+            if(arr.indexOf(a[i]) == -1)
+            {
+                arr.add(a[i]);
+            }
+        }
+        System.out.println(arr);
+    }
+}
