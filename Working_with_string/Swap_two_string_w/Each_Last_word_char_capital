@@ -1,0 +1,15 @@
+
+class Main {
+    public static void main(String[] args) {
+        String s =  "my name is gopal";  //Output = mY namE iS gopaL
+        String[] s1 = s.split(" ");
+        String s2 = "";
+        for(int i =0; i< s1.length ; i++)
+        {
+            int k = s1[i].length();
+            
+            s2 += s1[i].substring(0,k-1) + s1[i].substring(k-1).toUpperCase() + " ";
+        }
+        System.out.println(s2);
+    }
+}
