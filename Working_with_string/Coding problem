@@ -1,0 +1,106 @@
+
+
+input: my name is ram
+output: mY nAme iS rAm
+ 
+remove duplicate numbers in an array
+Input: {1,5,3,3,2,7,2,5}
+Output: 1,5,3,2,7
+
+
+Coding: Find pallindrome substrings in the string
+Input:  String str  = "ghrrtmhistrabatrhcch";
+Output: aba, hcch
+else no pallindrome substrings found
+ 
+Coding: Find smallest missing integer>0 from an array
+Input: int[] arr={1,3,4,1,6,2}
+Output: 5
+
+Input: abc, Output: aabbcc
+
+There is an int array, write a java program to find the position of a number received as a input during run time
+
+Write a Java Program to remove the duplicates from a given array
+
+Coding --Input String s = "i code in java" Expected o/p: I Code In Java.
+
+Write a program to reverse a string.
+
+Write a piece of code to check if Parantheses expression is balanced or not
+
+Write a program to print maximum number of characters that is repeated in a string
+
+Write a program to reverse a string without using Reverse() method
+
+Write java program to swap two numbers without using temp variable.
+
+Write a program to reverse the string.like -->This string "This is Optum India" to convert -- " India Optun is This"
+
+Write a Java program to reverse a String without using any inbuilt String methods
+
+Write a Java program to remove duplicates from an Array without using HashSet
+
+Write a Java program to print the First & last position of an element in the Array. Get the Input at the runtime & if the input is not present in the Array handle that and display a proper message.
+
+Write a Java program to remove all the duplicates from an Array without using Collection techniques
+
+
+Coding to print below pattern
+ 
+    * 
+   * * 
+  * * * 
+ * * * *
+* * * * *
+
+
+
+i love programming -> i evol gnimmargorp
+ 
+find the second largest number in an array
+Input: {106,14,46,47,94,94,52,86,36,99,101}
+Output: 101
+ 
+Program to remove duplicate words in a string
+input: hello world hello hello world 
+output: hello world
+ 
+Program to find frequency of each word in a string
+i love programming love
+i=1, love=2, programming=1
+ 
+Program to find duplicate words in a string
+input: i love programming love 
+output: love
+
+Write a Java program to print two max value from an Array
+
+Java programming to remove duplicates from a string
+
+Write a Java program to print the first Max & second Max number from an Array
+Write a Java program to remove duplicate characters from a string 
+ 
+Suppose you have an array list. Can you write a program to perform sum of all odd numbers and sum of all even numbers in the list
+
+
+
+Find Largest number in an Array
+Find second smallest and second largest number in an array.
+Reverse a given array
+count the frequency of earch erray
+Rearrange the array in increment and decrement order
+calculate the sum of array
+Rotate the array by k elements
+Find the avg of array's elements
+Find the median of the array
+Remove duplicates from a sorted  array
+Remove duplicate from a unsorted array
+Add an element to array
+Find all unique/Non repeating Elements
+
+Input: Harshvardhan Singh Yadav
+Output: Yadav Singh Harshvardhan
+ 
+Input: Mohandas Karamchand Gandhi
+Output: Gandhi Mohandas Karamchand
