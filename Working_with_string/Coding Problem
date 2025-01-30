@@ -1,0 +1,193 @@
+1	"To check the logic and string manipulation
+String s= ""my is x"";
+String a=""name"";
+o/p - my name is x"
+2	"Find the average of maps - this is to check knowledge of java collections
+map(""A"", 10);
+map(""B"", 19);
+map(""C"", 23);"
+3	"write a program to arrange a sentence place the words which begins and end with vowel at the beginning followed by the remaining words the way they occur in the sentence
+i/p : Anamika and Suman are never going to quarrel any more 
+o/p : Anamika are anymore and Suman never going to quarrel"
+4	"Remove Duplicates from Sorted Array
+Example:
+Input: arr[] = [1, 2, 2, 3, 4, 4, 4, 5, 5]
+Output: [1, 2, 3, 4, 5]"
+5	Write a program to identify if the given year is leap or not
+6	Write a code for random generator which generate the string or integer randomly 
+7	"Write a program to identify the position of the integer
+Example:
+Input={3,5,6,2,7,3}.What is the position of 3 in an array.
+Output: 1st and 6th"
+8	"Write a program to change the 2nd character of each word in a string to upper case.
+Example: 
+Input: My name is Praveen.
+Output: MY nAme iS PRaveen."
+9	"Write a java program to move all the zero to the right end side of the array without changing the relation order of the other element
+Input: arr[] = [1, 2, 0, 4, 3, 0, 5, 0]
+Output: arr[] = [1, 2, 4, 3, 5, 0, 0, 0]"
+10	Write a Java program to remove numbers from the given input ex:ABC123 -remove 123
+11	How do you find duplicate characters in a string
+12	How to Compare Two Objects in Java
+13	Java Program to Check if a Number is Positive or Negative
+14	Count the digits in a number:
+15	Write a program to find the duplicate characters in list of string .
+16	write a java program for implementing multi-threaded application
+17	Write a Java program for Armstrong number(153 is an Armstrong number of 3 digits, since the sum of cubes of each digit is equal to the number itself.13 + 53 + 33= 153)
+18	"Find pallindrome substrings in the string
+Input:  String str  = ""ghrrtmhistrabatrhcch"";
+Output: aba, hcch
+else no pallindrome substrings found"
+19	"remove duplicate numbers in an unsorted array
+Input: arr[] = {1,5,3,3,2,7,2,5}
+Output: [1,5,3,2,7]
+"
+20	"Write a program to double each charatcers of the word
+Example:Input: abc, Output: aabbcc"
+21	"Write a program to print maximum number of characters that is repeated in a string
+Input: geeksforgeeks
+Output: e"
+22	"Write a program to reverse a string without using Reverse() method
+Input: Geeks
+Output: skeeG"
+23	"Write java program to swap two numbers without using third variable
+Input: Enter the value of x and y: 23 43
+Output:
+Before swapping numbers: 23 43
+After swapping: 43 23"
+24	Write a program to reverse the string.like -->This string "This is Optum India" to convert -- " India Optun is This"
+25	"Write a Java program to remove duplicates from an Array without using HashSet.
+
+Example:
+Input - {2,4,4,5,6,7,8,5}
+Output - {2,4,5,6,7,8}"
+26	"Write a Java program to print the First & last position of an element in the Array. Get the Input at the runtime & if the input is not present in the Array handle that and display a proper message.
+
+Example:
+Input - {1, 2, 2, 2, 2, 3, 4, 7, 8, 8}
+RunTime Input using Scanner class - 2
+Output - 1,4"
+27	"Coding to print below pattern
+ 
+    * 
+   * * 
+  * * * 
+ * * * *
+* * * * *"
+28	"Write a program to reverse the characters of each word without changing the word positions
+Exampled: Input-i love programming Output: i evol gnimmargorp"
+29	"Find the second largest number in an array
+Input: {106,14,46,47,94,94,52,86,36,99,101}
+Output: 101"
+30	"Program to find frequency of each word in a string
+i love programming love
+i=1, love=2, programming=1"
+31	"Program to find frequency of each character in a string
+i love programming love
+i=2, l=2, o=2, e=2 etc"
+32	"Suppose you have an array list. Can you write a program to perform sum of all odd numbers and sum of all even numbers in the list.
+
+Example:
+Create ArrayList & add values to list as Input - [2,3,4,5]
+Output - Even Sum = 6, Odd Sum = 8"
+33	"Find second smallest and second largest number in an array.
+
+Example:
+Input - {2,6,10,55,32,45}
+Output - Second Smallest - 6, Second Largest - 45"
+34	"Find second smallest and second largest number in an array. Along with that print the index of 2nd Smallest & 2nd Largest
+
+Example:
+Input - {2,6,10,55,32,45}
+Output - Second Smallest - 6, Second Largest - 45"
+35	"Find the median of the array.
+
+Example:
+Input - {12,3,5,7,4,19,26}
+Output - 7"
+36	"Rearrange the array in increment and decrement order
+
+Example:
+Input - {2,5,1,7,30,12,19}
+Output - Increment Order - {1,2,5,7,12,19,30}, Decrement Order - {30,19,12,7,5,2,1}"
+37	"Find all unique/Non repeating Elements
+
+Example:
+Input - {10,5,33,5,11,10,6}
+Output - 33,11,6"
+38	"Take below input and print as mentioned
+Input : He is doing a wonderful job at coding
+Output : a at he is job doing coding wonderful"
+39	"""The quick brown fox jumps overs the lazy dog"" - write a program to check if the sentence is Pangram 
+Note: A pangram is a string that contains all the letters of the English alphabet means all of the from a to z "
+40	Give an example of Overriding by writing the code.
+41	"Write a program to calculate the count of non-space characters in a string.
+
+Input: This is a string
+Output: 13"
+42	"Write a program to swap the two strings using StringBuilder class.
+
+Input: Hello world
+Output: World Hello"
+43	Write a program to check whether the given number is prime or not
+44	Write a Java Program to generate Output "aabbbcccc" with the input "a2b3c4"
+45	"Write a Java Program to print the first non repeating character in a given String.
+Example:
+Input:GeeksForGeeks
+Output: F"
+46	"Input – [Need, Used, Java, Selenium, Red, Read]
+Output – [Need, Used, Red]
+Store the words in a list that contains the word “ed”"
+47	"Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+ 
+Example:
+Input: x = 2, n = 10
+Output: 1024"
+48	"Write a Java Program to convert HashMap to ArrayList
+Example:
+Input: HashMap
+        map.put(""vishal"", 10); 
+        map.put(""sachin"", 30); 
+        map.put(""vaibhav"", 20); 
+Output: 
+The Keys of the Map are [vaibhav, vishal, sachin]
+The Values of the Map are [20, 10, 30]"
+49	Write a Java Program to print numbers 1 to 100 without using any loop(for/while/do-while).
+50	"Write a Java Program to check if a number is Armstrong number or not
+Note: If we are taking 3 digit number then Armstrong number is a number that is equal to the sum of cubes of its digits
+Example: Input : 153
+Output: 153"
+51	"How do you remove leading and trailing spaces from a string in Java?
+I/p - ""  Automation  Testing\t"";
+o/p - ""AutomationTesting"""
+52	"Reverse only words in position 1 and 3 from a string.
+I/p : I am a Automation tester
+o/p : I ma a noitamotuA tester"
+53	"Write Java program that checks if two arrays contain the same elements.
+Example : 
+Integer[] a1 = {1,2,3,2,1};
+Integer[] a2 = {1,2,3};
+Integer[] a3 = {1,2,3,4};
+ 
+O/p - (a1, a2) - true
+      (a1, a3) - false
+ "
+54	"Write a Java program that sorts HashMap by value
+Input : Key = Math, Value = 98
+        Key = Data Structure, Value = 85
+        Key = Database, Value = 91
+ 
+Output : Key = Data Structure, Value = 85
+         Key = Database, Value = 91
+         Key = Math, Value = 98"
+55	"How do you merge two unsorted arrays into single sorted array without duplicates
+I/p : int[] a = new int[] {4, 2, 5, 1};
+      int[] b = new int[] {8, 1, 9, 5};
+ 
+O/p : [1, 2, 4, 5, 8, 9]"
+56	"Write a program to count total number of Vowes & consonants in a String
+input:HelloWorld
+output:vowes count:3
+consonants:7"
+57	"Writ a program to see if the sentence is Panagram
+""the quick brown foxjumps over the lazy dog"""
