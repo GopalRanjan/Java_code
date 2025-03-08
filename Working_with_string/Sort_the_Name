@@ -1,0 +1,28 @@
+//WAp input abdul kalam azaad, output A.K.Azaad
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		String name = "Abdul kalam azaad" ;
+		String ne = " ";
+		
+		String[] sp = name.split(" ");
+		
+		int l = sp.length;
+		String s = sp[l-1];
+		for(String k : sp)
+		{
+		    ne = ne +  k.substring(0,1).toUpperCase() + "." + " ";
+		    if(k == sp[l-2]) break;
+		    
+		}
+		ne += s.substring(0,1).toUpperCase() + s.substring(1);
+		System.out.println(ne);
+		
+	}
+}
