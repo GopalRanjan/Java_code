@@ -1,0 +1,92 @@
+//"Write a Java Program to print the first non repeating character in a given String.
+//Example:
+//Input:Swiss
+//Output: W"
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		String inp = "swiss";
+		char[] c = inp.toCharArray(); 
+		
+		Set<Character> s = new HashSet<>();
+		for (int i=0;i<c.length;i++ )
+		{
+		    for(int j=i ; j<c.length;j++)
+		    {
+		        s.add(c[i]);
+		        if (c[i] == c[j])  s.remove(c[i]);
+		}}
+		Iterator<Character> ls = s.iterator();
+		while(ls.hasNext())
+		{
+		    System.out.println(ls.next());
+		    break;
+		}
+		
+
+	}
+}
+
+//"Write a Java Program to print the first non repeating character in a given String.
+//Example:
+//Input:GeeksForGeeks
+//Output: F"
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		String inp = "geekforgeeks";
+		//char[] arr = new char[4];
+		//int p =0;
+		char[] c = inp.toCharArray(); 
+		
+		Set<Character> s = new HashSet<>();
+		for (int i=0;i<c.length;i++ )
+		{
+		    for(int j=0 ; j<c.length;j++)
+		    {
+		      //  s.add(c[i]);
+		      //  if (c[i] == c[j])  s.remove(c[i]);
+		      if (c[i] != c[j])
+		      {
+		          s.add(c[i]);
+		          //System.out.println("add   " +c[i]);
+		      }
+		      else if(i != j)
+		      {
+		          s.remove(c[i]);
+		          break;
+		      }
+		}}
+		System.out.println(s);
+// 		Iterator<Character> ls = s.iterator();
+// 		while(ls.hasNext())
+// 		{
+// 		  //  arr[p] = ls.next();
+// 		  //  p++;
+// 		  //  ls.next(); //it move to next element
+// 		  //  ls.next();
+// 		    System.out.println(ls.next());
+// 		}
+		for(char ks : s)
+		{
+		    System.out.println(ks);
+		    break;
+		}
+		
+
+	}
+}
