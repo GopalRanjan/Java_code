@@ -1,0 +1,36 @@
+//Rotate array into k times 	int[] a = {2,4,5,6,7,9}; k=1-output= 9,2,4,5,6,7, k=2-7,9,2,4,5,6
+import java.util.*;
+
+class Main
+{
+    public static void rotate(int[] arr,int start,int end)
+    {
+        while(start<end)
+        {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+        
+        
+    }
+    public static void rev(int[] a , int k)
+    {
+        int l = a.length;
+      k = k%l; //if k>l
+        rotate(a,0,l-1);  //reverse the array
+        rotate(a,0,k-1);
+        rotate(a,k,l-1);
+    }
+	public static void main (String[] args) 
+	{
+		int[] a = {2,4,5,6,7,9};
+		int k=2; //no of times to rotate
+		rev(a,k);
+		System.out.println(Arrays.toString(a));
+    //for(int i : a) System.out.println(i);
+		
+	}
+}
