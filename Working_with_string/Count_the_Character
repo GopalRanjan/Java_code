@@ -1,0 +1,36 @@
+//input - String s ="hello";  output- Key - e value -1
+//Key - h value -1
+//Key - l value -2
+//Key - o value -1
+//Key = e Value = 1
+//Key = h Value = 1
+//Key = l Value = 2
+//Key = o Value = 1
+//{e=1, h=1, l=2, o=1}
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String s ="hello";
+	    Map<Character,Integer> m = new HashMap<>();
+	    for(int i = 0;i<s.length();i++)
+	    {
+	        if(m.containsKey(s.charAt(i)))
+	        {
+	            m.put(s.charAt(i) , m.getOrDefault(s.charAt(i), 0) + 1);
+	        }
+	        else 
+	        {
+	            m.put(s.charAt(i),1);
+	        }
+	    }
+	    for(Map.Entry ent : m.entrySet())
+	    {
+	        System.out.println("Key - " + ent.getKey() + " value -" + ent.getValue());
+	    }
+	    m.forEach((k,v) -> System.out.println("Key = "+ k + " Value = " + v)); //Lambda function
+		System.out.println(m);
+	}
+}
