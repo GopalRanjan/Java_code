@@ -1,0 +1,21 @@
+//output = [9,2]
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    int[] a = {4,1,8,7,6,9,2};
+	    List b = new ArrayList();
+	    int max = a[a.length - 1];
+	    for(int i = a.length - 2; i>=0;i--)
+	    {
+	        if(a[i] > max)
+	        {
+	            max = a[i];
+	            b.add(a[i]);
+	        }
+	    }
+	    b.add(a[a.length - 1]);
+		System.out.println(b);
+	}
+}
